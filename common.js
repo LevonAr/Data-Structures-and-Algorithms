@@ -4,3 +4,4 @@ const verifyUser = function(username, password, callback){
            callback(error)
        }else{
            dataBase.getRoles(username, (error, roles) => {
+               if (error){
