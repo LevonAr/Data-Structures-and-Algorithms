@@ -7,3 +7,4 @@ const verifyUser = function(username, password, callback){
                if (error){
                    callback(error)
                }else {
+                   dataBase.logAccess(username, (error) => {
