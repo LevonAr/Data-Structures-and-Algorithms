@@ -9,4 +9,6 @@ const verifyUser = function(username, password, callback){
                }else {
                    dataBase.logAccess(username, (error) => {
                        if (error){
-let promise = new Promise
+let promise = new Promise function(resolve, reject)
+
+
