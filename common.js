@@ -9,4 +9,4 @@ const verifyUser = function(username, password, callback){
                }else {
                    dataBase.logAccess(username, (error) => {
                        if (error){
-let promise 
+let promise = new Promise
