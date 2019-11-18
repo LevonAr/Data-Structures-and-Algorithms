@@ -5,3 +5,5 @@ function wait (time)
         setTimeout(resolve, time)
     })
 }
+
+wait(3000).then(function()
