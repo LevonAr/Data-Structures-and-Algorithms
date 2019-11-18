@@ -4,3 +4,4 @@ function wait (time)
     {   
         setTimeout(resolve, time)
     })
+}
