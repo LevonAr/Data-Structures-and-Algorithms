@@ -14,3 +14,6 @@ var promise = new Promise(function(resolve, reject))
     if (x===y){
         resolve()
     }
+    else{
+        reject()
+    }
