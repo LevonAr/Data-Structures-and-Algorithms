@@ -11,4 +11,6 @@ wait(3000).then(function()
 var promise = new Promise(function(resolve, reject))    
     const x = "geeks"
     const y = "geeks
-    if (x===y)
+    if (x===y){
+        
+    }
