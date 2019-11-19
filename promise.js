@@ -7,6 +7,5 @@ function wait (time)
 }
 
 wait(3000).then(function()
-
-                
+              
 var promise = new Promise(function(resolve, reject))    
