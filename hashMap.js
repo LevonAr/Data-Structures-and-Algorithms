@@ -9,5 +9,6 @@ var twoSum = function(nums, target) {
         if(x.has(compliment)&&x.get(compliment)!=i){
             let y = x.get(compliment)
             return [i, y]
+        }
     }
 }
