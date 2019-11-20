@@ -10,4 +10,4 @@ var twoSum = function(nums, target) {
             let y = x.get(compliment)
             return [i, y]
     }
-};
+}
