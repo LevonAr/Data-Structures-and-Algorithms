@@ -7,3 +7,4 @@ var twoSum = function(nums, target) {
     for(i=0; i<nums.length; i++){
         let compliment = target-nums[i]
         if(x.has(compliment)&&x.get(compliment)!=i){
+            let y = x.get(compliment)
