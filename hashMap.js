@@ -5,3 +5,4 @@ var twoSum = function(nums, target) {
         x.set(nums[i],i)
     }
     for(i=0; i<nums.length; i++){
+        let compliment = target-nums[i]
