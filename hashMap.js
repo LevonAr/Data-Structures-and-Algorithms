@@ -8,3 +8,4 @@ var twoSum = function(nums, target) {
         let compliment = target-nums[i]
         if(x.has(compliment)&&x.get(compliment)!=i){
             let y = x.get(compliment)
+            return [i, y]
