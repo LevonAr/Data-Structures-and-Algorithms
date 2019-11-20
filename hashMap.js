@@ -3,3 +3,4 @@ var twoSum = function(nums, target) {
     let i
     for(i=0; i<nums.length; i++){
         x.set(nums[i],i)
+    }
