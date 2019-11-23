@@ -10,3 +10,5 @@ var addTwoNumbers = function(l1, l2) {
      let l2_digit_counter = 0
      for(let ptr = l2; ptr != null; ptr = ptr.next){
         l2_hashmap.set(l2_digit_counter, ptr.val)
+        l2_digit_counter ++ 
+     }
