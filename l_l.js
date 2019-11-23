@@ -7,3 +7,4 @@ var addTwoNumbers = function(l1, l2) {
      }
      
      let l2_hashmap = new Map
+     let l2_digit_counter = 0
