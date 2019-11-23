@@ -5,3 +5,5 @@ var addTwoNumbers = function(l1, l2) {
         l1_hashmap.set(l1_digit_counter, ptr.val)
         l1_digit_counter ++ 
      }
+     
+     let l2_hashmap = new Map
