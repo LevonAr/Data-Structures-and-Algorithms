@@ -12,3 +12,6 @@ var addTwoNumbers = function(l1, l2) {
         l2_hashmap.set(l2_digit_counter, ptr.val)
         l2_digit_counter ++ 
      }
+
+     let l1_flipped_string =""
+     
