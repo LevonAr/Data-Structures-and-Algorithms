@@ -10,4 +10,5 @@ console.log("numCallbackRuns: ", numCallbackRuns);
 
 const items = ['item1', 'item2', 'item3'];
 
-const copy = [];
+const copy = [];for (let i=0; i<items.length; i++) {
+
