@@ -9,3 +9,5 @@ arraySparse.forEach(function(element){
 console.log("numCallbackRuns: ", numCallbackRuns);
 
 const items = ['item1', 'item2', 'item3'];
+
+const copy = [];
