@@ -5,3 +5,5 @@ arraySparse.forEach(function(element){
   console.log(element);
   numCallbackRuns++;
 });
+
+console.log("numCallbackRuns: ", numCallbackRuns);
