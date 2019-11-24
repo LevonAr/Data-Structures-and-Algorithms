@@ -4,3 +4,4 @@ let numCallbackRuns = 0;
 arraySparse.forEach(function(element){
   console.log(element);
   numCallbackRuns++;
+});
