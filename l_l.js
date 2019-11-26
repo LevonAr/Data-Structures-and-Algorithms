@@ -26,3 +26,4 @@ var addTwoNumbers = function(l1, l2) {
          l1_flipped_string = l1_flipped_string + str
      }
      
+     let l1_flipped_number = parseInt(l1_flipped_string)
