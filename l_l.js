@@ -37,4 +37,6 @@ var addTwoNumbers = function(l1, l2) {
      }
      
      let l2_flipped_number = parseInt(l2_flipped_string);
+
+     let final_sum = l1_flipped_number + l2_flipped_number;
      
