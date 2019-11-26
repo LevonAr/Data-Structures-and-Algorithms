@@ -32,4 +32,5 @@ var addTwoNumbers = function(l1, l2) {
  
      for(let i = l2_hashmap.size-1; i >= 0; i--){
          let num = l2_hashmap.get(i);
+         let str = num.toString();
      
