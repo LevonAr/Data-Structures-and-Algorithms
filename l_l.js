@@ -19,4 +19,6 @@ var addTwoNumbers = function(l1, l2) {
      }
 
      let l1_flipped_string =""
+
+     for(let i = l1_hashmap.size-1 ; i >= 0; i--){
      
