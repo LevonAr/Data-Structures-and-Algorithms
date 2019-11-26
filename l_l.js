@@ -31,4 +31,5 @@ var addTwoNumbers = function(l1, l2) {
      let l2_flipped_string = "";
  
      for(let i = l2_hashmap.size-1; i >= 0; i--){
+         let num = l2_hashmap.get(i);
      
