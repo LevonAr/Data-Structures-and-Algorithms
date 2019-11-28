@@ -50,6 +50,8 @@ var addTwoNumbers = function(l1, l2) {
           if(i==0){
                ptr = new ListNode()
      }
+          let char = final_sum_string.charAt(i)
+
 
      
      
