@@ -49,7 +49,7 @@ var addTwoNumbers = function(l1, l2) {
      for(let i=0; i < 3; i++){
           if(i==0){
                ptr = new ListNode()
-
+     }
 
      
      
