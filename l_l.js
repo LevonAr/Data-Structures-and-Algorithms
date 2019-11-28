@@ -44,5 +44,8 @@ var addTwoNumbers = function(l1, l2) {
      
      let final_sum_digits = final_sum_string.length
      
+     let ptr
+     
+     
 
      
