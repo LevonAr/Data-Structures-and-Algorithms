@@ -47,6 +47,8 @@ var addTwoNumbers = function(l1, l2) {
      let ptr
      
      for(let i=0; i < 3; i++){
+          if(i==0){
+
      
      
      
