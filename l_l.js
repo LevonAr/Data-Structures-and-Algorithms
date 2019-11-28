@@ -40,3 +40,6 @@ var addTwoNumbers = function(l1, l2) {
 
      let final_sum = l1_flipped_number + l2_flipped_number;
      
+     let final_sum_string = final_sum.toString()
+
+     
