@@ -51,7 +51,9 @@ var addTwoNumbers = function(l1, l2) {
                ptr = new ListNode()
      }
          let char = final_sum_string.charAt(i)
-         let num = parseInt(char)         
+         let num = parseInt(char)
+         ptr.val = num
+
 
 
      
