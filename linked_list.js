@@ -11,3 +11,4 @@ class LinkedList {
         this.head = null; 
         this.size = 0; 
     } 
+} 
