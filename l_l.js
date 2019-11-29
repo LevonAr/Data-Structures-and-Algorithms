@@ -58,6 +58,7 @@ var addTwoNumbers = function(l1, l2) {
      } 
      
      console.log(ptr)    
+};     
 
 
      
