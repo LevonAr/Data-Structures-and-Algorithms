@@ -55,8 +55,9 @@ var addTwoNumbers = function(l1, l2) {
          ptr.val = num
          ptr.next = new ListNode()
          ptr = ptr.next
-     }
-    console.log(ptr)    
+     } 
+     
+     console.log(ptr)    
 
 
      
