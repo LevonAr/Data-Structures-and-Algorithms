@@ -51,6 +51,8 @@ var addTwoNumbers = function(l1, l2) {
              this.head = null;
              this.size = 0;
          } 
+          
+         add(element){
 
      
      for(let i=0; i < 3; i++){
