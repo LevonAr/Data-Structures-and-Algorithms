@@ -48,6 +48,7 @@ var addTwoNumbers = function(l1, l2) {
      
      class Linked_List{
          constructor(){
+             this.head = null;
 
      
      for(let i=0; i < 3; i++){
