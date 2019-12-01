@@ -54,7 +54,9 @@ var addTwoNumbers = function(l1, l2) {
           
          add(element){
              if (this.head == null){
-
+                 this.head = new ListNode(element)
+                 this.size ++                
+             }
      
      for(let i=0; i < 3; i++){
           if(i==0){
