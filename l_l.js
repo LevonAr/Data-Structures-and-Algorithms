@@ -50,6 +50,7 @@ var addTwoNumbers = function(l1, l2) {
          constructor(){
              this.head = null;
              this.size = 0;
+         } 
 
      
      for(let i=0; i < 3; i++){
