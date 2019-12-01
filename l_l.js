@@ -46,6 +46,9 @@ var addTwoNumbers = function(l1, l2) {
      
      let ptr
      
+     class Linked_List{
+
+     
      for(let i=0; i < 3; i++){
           if(i==0){
                ptr = new ListNode()
