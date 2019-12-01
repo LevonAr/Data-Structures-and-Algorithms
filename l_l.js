@@ -53,6 +53,7 @@ var addTwoNumbers = function(l1, l2) {
          } 
           
          add(element){
+             if (this.head == null){
 
      
      for(let i=0; i < 3; i++){
