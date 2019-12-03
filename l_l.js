@@ -5,6 +5,7 @@ class Linked_List {
     }
     add(element){
         if(this.head==null){
+            this.head = new ListNode(element)
 
 
 function ListNode(val) {
