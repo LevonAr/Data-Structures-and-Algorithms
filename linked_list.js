@@ -46,3 +46,14 @@ var addTwoNumbers = function(l1, l2) {
          let str = num.toString()
          l1_flipped_string = l1_flipped_string + str
      }    
+
+     let l1_flipped_number = parseInt(l1_flipped_string)
+          
+     let l2_flipped_string = ""
+     
+     for(let i = l2_hashmap.size-1; i >= 0; i--){
+         let num = l2_hashmap.get(i)
+         let str = num.toString()
+         l2_flipped_string = l2_flipped_string + str
+     }
+        
