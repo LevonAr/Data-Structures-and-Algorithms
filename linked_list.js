@@ -71,4 +71,6 @@ var addTwoNumbers = function(l1, l2) {
          let num = parseInt(char)         
          final_linked_list.add(num)   
      }
+        return (final_linked_list.head)    
+};
     
