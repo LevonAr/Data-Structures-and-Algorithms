@@ -37,4 +37,12 @@ var addTwoNumbers = function(l1, l2) {
      for(let ptr = l2; ptr != null; ptr = ptr.next){
         l2_hashmap.set(l2_digit_counter, ptr.val)
         l2_digit_counter ++ 
+     }
+    
+     let l1_flipped_string =""
+    
+     for(let i = l1_hashmap.size-1 ; i >= 0; i--){
+         let num = l1_hashmap.get(i)
+         let str = num.toString()
+         l1_flipped_string = l1_flipped_string + str
      }    
