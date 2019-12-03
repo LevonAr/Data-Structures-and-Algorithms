@@ -1,4 +1,5 @@
 class Linked_List {
+    constructor(){
 
 
 function ListNode(val) {
