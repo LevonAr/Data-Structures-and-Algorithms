@@ -1,5 +1,6 @@
 class Linked_List {
     constructor(){
+        this.head = null;
 
 
 function ListNode(val) {
