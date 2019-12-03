@@ -8,6 +8,7 @@ class Linked_List {
             this.head = new ListNode(element)
             console.log(this.head, this.size)
             this.size = 1
+        }
 
 
 function ListNode(val) {
@@ -29,7 +30,6 @@ var addTwoNumbers = function(l1, l2) {
         l2_hashmap.set(l2_digit_counter, ptr.val)
         l2_digit_counter ++ 
      }
-        }
 
      let l1_flipped_string =""
 
