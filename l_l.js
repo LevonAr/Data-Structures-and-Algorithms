@@ -3,6 +3,7 @@ class Linked_List {
         this.head = null;
         this.size = 0;
     }
+    add(element){
 
 
 function ListNode(val) {
