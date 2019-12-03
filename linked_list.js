@@ -56,4 +56,12 @@ var addTwoNumbers = function(l1, l2) {
          let str = num.toString()
          l2_flipped_string = l2_flipped_string + str
      }
-        
+     let l2_flipped_number = parseInt(l2_flipped_string)
+     
+     let final_sum = l1_flipped_number + l2_flipped_number
+          
+     let final_sum_string = final_sum.toString()
+
+     let final_sum_digits = final_sum_string.length
+               
+     let final_linked_list = new Linked_List        
