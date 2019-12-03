@@ -64,4 +64,11 @@ var addTwoNumbers = function(l1, l2) {
 
      let final_sum_digits = final_sum_string.length
                
-     let final_linked_list = new Linked_List        
+     let final_linked_list = new Linked_List     
+     
+     for(let i = final_sum_digits-1; i >= 0; i--){
+         let char = final_sum_string.charAt(i)
+         let num = parseInt(char)         
+         final_linked_list.add(num)   
+     }
+    
