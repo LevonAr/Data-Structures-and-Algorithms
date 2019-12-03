@@ -1,3 +1,6 @@
+class Linked_List {
+
+
 function ListNode(val) {
      this.val = val;
      this.next = null;
