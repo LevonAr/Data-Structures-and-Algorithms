@@ -6,6 +6,7 @@ class Linked_List {
     add(element){
         if(this.head==null){
             this.head = new ListNode(element)
+            console.log(this.head, this.size)
 
 
 function ListNode(val) {
