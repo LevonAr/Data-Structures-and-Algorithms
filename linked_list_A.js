@@ -12,3 +12,4 @@ var addTwoNumbers = function(l1, l2) {
     } else if (carry) {
         node = new ListNode(1)
         node.next = null
+    return node
