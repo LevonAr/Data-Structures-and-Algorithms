@@ -10,3 +10,4 @@ var addTwoNumbers = function(l1, l2) {
         node = new ListNode(val % 10)
         node.next = addTwoNumbers(next1, next2, val >= 10)  
     } else if (carry) {
+        node = new ListNode(1)
