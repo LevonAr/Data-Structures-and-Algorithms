@@ -13,4 +13,4 @@ var addTwoNumbers = function(l1, l2) {
         node = new ListNode(1)
         node.next = null
     return node
-};
+}
