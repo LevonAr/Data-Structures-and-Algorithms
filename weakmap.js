@@ -3,3 +3,6 @@
    weakmap1.set(key1, 42); 
    document.write(weakmap1.get(key1)); 
    const key2 = {};
+
+   const weakmap2
+
