@@ -7,5 +7,5 @@
 
    const key2 = {};
 
-   const weakmap2 = new WeakMap ()
+  
 
