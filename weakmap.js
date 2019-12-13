@@ -4,8 +4,6 @@
    document.write(weakmap1.get(key1)); 
 
    const weakmap2 = new WeakMap ()
-
    const key2 = {};
-
   
 
