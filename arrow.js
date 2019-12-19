@@ -9,4 +9,5 @@ var StudentRollNo = [];
 Students.forEach(function (Student) { 
     StudentRollNo.push(Student.rollNo); 
 }); 
+console.log(StudentRollNo); 
 
