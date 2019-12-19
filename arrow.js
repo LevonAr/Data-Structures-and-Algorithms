@@ -6,4 +6,5 @@ var Students = [
     { rollNo: 25, name: 'Omega'} 
 ]; 
 var StudentRollNo = []; 
+Students.forEach(function (Student) { 
 
