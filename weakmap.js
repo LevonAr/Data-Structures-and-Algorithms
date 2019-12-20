@@ -6,4 +6,3 @@
    const weakmap2 = new WeakMap ()
    const key2 = {};
   
-
