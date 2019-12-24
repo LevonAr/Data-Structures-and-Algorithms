@@ -3,3 +3,4 @@ void reverse(int[] array) {
   int other =array.length - i - 1;
   int temp = array[i];
   array[i] = array[other];
+  array[other] = temp;
