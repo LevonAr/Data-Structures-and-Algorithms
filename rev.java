@@ -4,3 +4,5 @@ void reverse(int[] array) {
   int temp = array[i];
   array[i] = array[other];
   array[other] = temp;
+}
+  
