@@ -5,4 +5,4 @@ void reverse(int[] array) {
     array[i] = array[other];
     array[other] = temp;
   }
-}  
+} 
