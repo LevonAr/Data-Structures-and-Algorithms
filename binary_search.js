@@ -7,5 +7,5 @@ int sqrt_helper(int n, int min, int max) {
   if (guess * guess == n) {
     return guess;
   } else if (guess *guess <n) {
-    return sqrt_helper(n, guess + 1, max) ; II try higher
+    return sqrt_helper(n, guess + 1, max) ; 
   } else {
