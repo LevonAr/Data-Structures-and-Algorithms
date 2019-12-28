@@ -6,3 +6,4 @@ int sqrt_helper(int n, int min, int max) {
   int guess = (min + max) 
   if (guess * guess == n) {
   return guess;
+  } else if (guess *guess <n) {
