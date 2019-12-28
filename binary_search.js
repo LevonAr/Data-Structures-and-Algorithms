@@ -8,3 +8,4 @@ int sqrt_helper(int n, int min, int max) {
     return guess;
   } else if (guess *guess <n) {
     return sqrt_helper(n, guess + 1, max) ; II try higher
+  } else {
