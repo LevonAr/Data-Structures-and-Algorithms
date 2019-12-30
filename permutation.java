@@ -9,7 +9,8 @@ void perm(String str, String prefix){
   
   else{
     for(int i = 0; i < str.length(); i++){
-      String rem = str.substring(0, i) + str.substring(i+1);          
+      String rem = str.substring(0, i) + str.substring(i+1);
+      perm(rem, prefix + str.charAt(i));
     }  
   }  
 }
