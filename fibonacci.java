@@ -5,3 +5,4 @@ void allFib(int n) {
 }
 
 int fib(int n) {
+  if (n <= e) return e;
