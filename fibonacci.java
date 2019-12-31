@@ -4,5 +4,4 @@ void allFib(int n) {
   }
 }
 
-
 int fib(int n) {
