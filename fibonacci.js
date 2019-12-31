@@ -1,1 +1,1 @@
-
+void allFib(int n) {
