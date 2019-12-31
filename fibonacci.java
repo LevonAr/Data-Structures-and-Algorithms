@@ -3,3 +3,6 @@ void allFib(int n) {
     System.out.println(i + ": » + fib(i));
   }
 }
+
+
+int fib(int n) {
