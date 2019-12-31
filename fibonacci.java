@@ -1,2 +1,2 @@
 void allFib(int n) {
-  for (int i =8; i < n; i++) {
+  for (int i = 0; i < n; i++) {
