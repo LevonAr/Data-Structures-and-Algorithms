@@ -7,3 +7,6 @@ function unique (string){
             if(i==j){}
             else if(string[i]==string[j]){
                 return false; 
+            }
+        }
+    }
