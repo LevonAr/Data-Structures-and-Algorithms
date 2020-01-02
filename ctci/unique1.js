@@ -6,3 +6,4 @@ function unique (string){
             //console.log(string[j], string[i])
             if(i==j){}
             else if(string[i]==string[j]){
+                return false; 
