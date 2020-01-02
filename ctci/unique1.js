@@ -5,3 +5,4 @@ function unique (string){
         for(let j=0; j<string.length; j++){
             //console.log(string[j], string[i])
             if(i==j){}
+            else if(string[i]==string[j]){
