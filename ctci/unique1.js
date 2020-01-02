@@ -2,3 +2,4 @@
 // it works as far is I can tell
 function unique (string){
     for(let i=0; i<string.length; i++){
+        for(let j=0; j<string.length; j++){
