@@ -3,3 +3,4 @@
 // could prob do better with space complexity as well
 
 function unique(string){
+    let hashTable = new Map()
