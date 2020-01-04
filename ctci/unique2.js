@@ -10,5 +10,7 @@ function unique(string){
         }
         else{
             hashTable.set(string[i], true)
-            return true
+        }
+    }
+    return true
 }
