@@ -7,3 +7,5 @@ function unique(string){
     for(let i=0; i<string.length; i++){
         if( hashTable.get(string[i]) == true ){
             return false
+        }
+        else{
