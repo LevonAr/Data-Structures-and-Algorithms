@@ -9,3 +9,5 @@ function unique(string){
             return false
         }
         else{
+            hashTable.set(string[i], true)
+        }
