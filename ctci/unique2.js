@@ -6,3 +6,4 @@ function unique(string){
     let hashTable = new Map()
     for(let i=0; i<string.length; i++){
         if( hashTable.get(string[i]) == true ){
+            return false
