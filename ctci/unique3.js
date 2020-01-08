@@ -4,4 +4,5 @@ function unique(string){
     
     for(let i=0; i<string.length; i++){
         if(hashTable[string[i]] == true){
+            return false;
 
