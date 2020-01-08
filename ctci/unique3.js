@@ -11,3 +11,4 @@ function unique(string){
         hashTable[string[i]] = true;
         }
     }
+    return true;
