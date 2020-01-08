@@ -9,3 +9,5 @@ function unique(string){
 
         else{
         hashTable[string[i]] = true;
+        }
+    }
