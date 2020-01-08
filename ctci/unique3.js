@@ -3,4 +3,5 @@ function unique(string){
     let hashTable = {};
     
     for(let i=0; i<string.length; i++){
+        if(hashTable[string[i]] == true){
 
