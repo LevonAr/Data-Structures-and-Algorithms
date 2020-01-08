@@ -7,3 +7,4 @@ function unique(string){
             return false;
         }
 
+        else{
