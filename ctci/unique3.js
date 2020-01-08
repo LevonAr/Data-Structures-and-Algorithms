@@ -12,3 +12,4 @@ function unique(string){
         }
     }
     return true;
+}
