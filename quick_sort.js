@@ -4,3 +4,4 @@ function quickSort(arr, left, right){
    partitionIndex;
 
    if(left &lt; right){
+    pivot = right;
