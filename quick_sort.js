@@ -14,4 +14,5 @@ function quickSort(arr, left, right){
 }      
 
 function partition(arr, pivot, left, right){
-   partitionIndex = left;
+   var pivotValue = arr[pivot],
+       partitionIndex = left;
