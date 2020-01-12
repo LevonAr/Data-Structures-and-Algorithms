@@ -21,3 +21,7 @@ function partition(arr, pivot, left, right){
          swap(arr, i, partitionIndex);
          partitionIndex++;
       }
+   }
+   swap(arr, right, partitionIndex);
+   return partitionIndex;
+}
