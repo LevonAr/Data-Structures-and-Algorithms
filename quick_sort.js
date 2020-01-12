@@ -16,3 +16,4 @@ function quickSort(arr, left, right){
 function partition(arr, pivot, left, right){
    var pivotValue = arr[pivot],
        partitionIndex = left;
+   for(var i = left; i < right; i++){
