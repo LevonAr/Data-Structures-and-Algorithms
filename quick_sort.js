@@ -12,3 +12,5 @@ function quickSort(arr, left, right){
    }
    return arr;
 }      
+
+function partition(arr, pivot, left, right){
