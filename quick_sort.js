@@ -27,4 +27,4 @@ function partition(arr, pivot, left, right){
 }
 
 function swap(arr, i, j){
-    var temp = arr[i];
+   var temp = arr[i];
