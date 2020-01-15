@@ -43,3 +43,4 @@ function swap(arr, i, j){
     let arr = [z,9,8,7,6]
     x(5)
     return arr
+ }*/
