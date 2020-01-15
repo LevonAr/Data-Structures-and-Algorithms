@@ -38,3 +38,5 @@ function swap(arr, i, j){
     let arr = [y,2,3,4]
     return arr
  }
+ 
+ function y(z){
