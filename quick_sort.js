@@ -41,3 +41,4 @@ function swap(arr, i, j){
  
  function y(z){
     let arr = [z,9,8,7,6]
+    x(5)
