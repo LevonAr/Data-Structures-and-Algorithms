@@ -21,3 +21,6 @@ function mergeSort(array,half = array.length/2){
     return [...arr,...left,...right];
   }
   
+  console.log(mergeSort([10,5,3,8,2,6,4,7,9,1]));
+  
+  mocha.setup('bdd');
