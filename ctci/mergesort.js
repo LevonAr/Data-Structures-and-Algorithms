@@ -27,3 +27,5 @@ function mergeSort(array,half = array.length/2){
 
   var assert = chai.assert;
 
+  describe('MergeSort',()=>{
+
