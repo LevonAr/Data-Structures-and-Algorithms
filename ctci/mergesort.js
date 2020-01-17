@@ -3,3 +3,4 @@ function mergeSort(array,half = array.length/2){
       return array
     }
     
+    const left = array.splice(0,half); //left part of array
