@@ -18,3 +18,6 @@ function mergeSort(array,half = array.length/2){
         arr.push(right.shift())
       }
     }
+    return [...arr,...left,...right];
+  }
+  
