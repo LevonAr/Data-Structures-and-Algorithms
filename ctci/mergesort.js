@@ -24,3 +24,6 @@ function mergeSort(array,half = array.length/2){
   console.log(mergeSort([10,5,3,8,2,6,4,7,9,1]));
   
   mocha.setup('bdd');
+
+  var assert = chai.assert;
+
