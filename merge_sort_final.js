@@ -20,4 +20,5 @@ function merge(left, right){
     let right_index = 0
 
     while((left_index<left.length) && (right_index<right.length)){
+        if(left[left_index]<right[right_index]){
     
