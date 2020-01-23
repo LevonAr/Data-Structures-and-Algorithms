@@ -14,3 +14,6 @@ function merge_sort(array){
 
 function merge(left, right){
     let sorted_array =[]
+
+    let left_index = 0
+    
