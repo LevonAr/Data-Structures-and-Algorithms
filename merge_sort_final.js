@@ -18,3 +18,6 @@ function merge(left, right){
     let left_index = 0
     
     let right_index = 0
+
+    while((left_index<left.length) && (right_index<right.length)){
+    
