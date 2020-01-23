@@ -21,4 +21,5 @@ function merge(left, right){
 
     while((left_index<left.length) && (right_index<right.length)){
         if(left[left_index]<right[right_index]){
+            sorted_array.push(left[left_index])
     
