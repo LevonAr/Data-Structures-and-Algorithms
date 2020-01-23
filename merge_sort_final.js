@@ -17,3 +17,4 @@ function merge(left, right){
 
     let left_index = 0
     
+    let right_index = 0
