@@ -4,3 +4,5 @@ function merge_sort(array){
     }
     
     const middle = Math.floor(array.length/2)
+
+    const left = array.slice(0,middle)
