@@ -8,4 +8,6 @@ function merge_sort(array){
     const left = array.slice(0,middle)
 
     const right = array.slice(middle)
-    
+
+    return merge( merge_sort(left) , merge_sort(right))
+}    
