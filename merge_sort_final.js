@@ -28,3 +28,4 @@ function merge(left, right){
             sorted_array.push(right[right_index])
             right_index++
         }
+    }
