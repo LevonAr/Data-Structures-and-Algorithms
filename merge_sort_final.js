@@ -1,3 +1,7 @@
+const {performance} = require('perf_hooks');
+
+var t0 = performance.now();
+
 function merge_sort(array){
     if( array.length<2){
         return array
