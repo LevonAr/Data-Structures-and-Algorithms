@@ -27,3 +27,4 @@ function merge(left, right){
         else{
             sorted_array.push(right[right_index])
             right_index++
+        }
