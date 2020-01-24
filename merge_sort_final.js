@@ -29,3 +29,4 @@ function merge(left, right){
             right_index++
         }
     }
+    return sorted_array.concat(left.slice(left_index)).concat(right.slice(right_index))
