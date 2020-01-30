@@ -15,6 +15,6 @@ var promise = new Promise(function(resolve, reject)
         resolve()
     }
     else{
-                reject()
+        reject()
     }
 })
