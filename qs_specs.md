@@ -5,6 +5,11 @@ qs1 7.2 ~ 7.5 ms
 qs2 7.2 ~ 7.5 ms
 \
 qs3 7.2 ~ 7.5 ms
+\
+qs4 7.2~7.5 ms
+\
+qs5 7.2~7.5 ms
+
 
 time specs for 100 random integer sort WITHOUT console.log the output array
 
