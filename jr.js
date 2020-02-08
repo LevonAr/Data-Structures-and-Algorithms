@@ -6,3 +6,5 @@ module.exports =
                 random_array.push(Math.floor(Math.random()*1000000))
             }
         return random_array
+    }
+}
