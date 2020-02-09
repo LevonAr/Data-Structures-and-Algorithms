@@ -7,3 +7,4 @@ from scrapy import Request
 
 class JobsSpider(scrapy.Spider):
     name = "cities"
+    allowed_domains = ["en.wikipedia.org"]
