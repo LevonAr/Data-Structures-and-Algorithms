@@ -15,3 +15,4 @@ class JobsSpider(scrapy.Spider):
         yield {'cities': cities}
 
     r = requests.post('https://httpbin.org/post', data = {'key':'value'})
+    print(r.text)
