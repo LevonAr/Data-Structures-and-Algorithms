@@ -12,3 +12,4 @@ class JobsSpider(scrapy.Spider):
 
     def parse(self, response):
         cities = response.xpath('//div[@class="mw-parser-output"]/table/tbody/tr/td/a/text()').extract()
+        yield {'cities': cities}
