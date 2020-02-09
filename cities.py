@@ -8,3 +8,4 @@ from scrapy import Request
 class JobsSpider(scrapy.Spider):
     name = "cities"
     allowed_domains = ["en.wikipedia.org"]
+    start_urls = ["https://en.wikipedia.org/wiki/List_of_cities_in_Los_Angeles_County,_California"]
