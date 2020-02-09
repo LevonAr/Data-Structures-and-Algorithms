@@ -14,4 +14,4 @@ class JobsSpider(scrapy.Spider):
         cities = response.xpath('//div[@class="mw-parser-output"]/table/tbody/tr/td/a/text()').extract()
         yield {'cities': cities}
 
-    r= requests.post         
+    r = requests.post('https://httpbin.org/post', data = {'key':'value'})
