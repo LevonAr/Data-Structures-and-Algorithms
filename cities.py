@@ -2,3 +2,4 @@
 # scrapy runspider cities.py -o 6.json
 
 import requests
+import scrapy
