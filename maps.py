@@ -6,3 +6,5 @@ URL = "https://www.google.com/maps/dir/
 r = requests.get(URL)
 
 parse = BeautifulSoup(r.content, "html.parser")
+
+print(str(parse))
