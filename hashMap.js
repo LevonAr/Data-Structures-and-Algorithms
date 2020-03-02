@@ -4,6 +4,7 @@ var twoSum = function(nums, target) {
     for(i=0; i<nums.length; i++){
         x.set(nums[i],i)
     }
+
     for(i=0; i<nums.length; i++){
         let compliment = target-nums[i]
         if(x.has(compliment)&&x.get(compliment)!=i){
